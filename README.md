@@ -64,8 +64,7 @@ The core search logic is independent of the UI and can be reused in different in
 The system was evaluated using subsets of the **Airbnb Duplicate Image Detection dataset**, focusing on room-level categories such as:
 
 * Living rooms
-* Bedrooms
-* Bathrooms
+* Online Product images
 
 This dataset is challenging because:
 
@@ -168,3 +167,7 @@ This mirrors how visual search systems are evaluated in practice.
 This project demonstrates an end-to-end visual image search system with realistic behavior, measured performance, and clearly understood limitations.
 
 The emphasis is on **engineering correctness, interpretability, and system-level reasoning**, rather than optimizing for a single metric or producing a superficial demo.
+
+---
+Note: Dataset files are excluded. 
+Provide your own image directory when running the application.
